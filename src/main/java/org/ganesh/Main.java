@@ -8,9 +8,8 @@ public class Main {
         Students studentObject = new Students();
         System.out.println("Hello, World!");
 
-        //studentObject.InsertDetails();
-        //studentObject.ShowDetails();
-        //studentObject.SearchStudent();
-
+        studentObject.InsertDetails();
+        studentObject.ShowDetails();
+        studentObject.SearchStudent();
     }
 }
