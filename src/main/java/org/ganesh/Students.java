@@ -12,7 +12,7 @@ public class Students {
     Students() throws Exception {
         this.URL = "jdbc:postgresql://localhost:5432/students";
         this.username = "postgres";
-        this.password = "1234";
+        this.password = "123456";
         this.connectionObject = DriverManager.getConnection(URL, username, password);
     }
 
